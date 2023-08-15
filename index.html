@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/3493146ee8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="logo-container">
+      <div>
+     <img src="https://monumental-ganache-c14cf0.netlify.app/static/media/logo.f6121fbbfec25dbc851a3e5aea13c8ad.svg" class="logo-container-image" alt="logo" />
+    </div>  
+
+     <button class="buy-now-button">Buy Now</button>
+    </div>
+    <div>
+    <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <img src="https://monumental-ganache-c14cf0.netlify.app/static/media/logo1.95d47bbac8db6c1e8f997bbf26ca05cf.svg" class="logo-image-nav"/>
+        <ul class="main-nav" id="js-menu">
+          <li>
+            <a href="#" class="nav-links">Home</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links">Products</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links">Contact Us</a>
+          </li>
+          <li>
+            <a href="#" class="nav-links">Blog</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    
+    <hr />
+    <div class="bg-container">
+        <div class="content-container">
+            <h1 class="heading">Checkout</h1>
+            <div class="path-container">
+                <a href="#">Homepage</a>/
+                <a href="#">Clothing Categories</a>/
+                <a href="#">Checkout</a>
+            </div>
+
+            <div class="main-card-container">
+                <section class="left-section">
+                    <div class="card contact-card">
+                        <div class="contact-info-text-con">
+                            <i class="fas fa-user-circle contact-icon"></i>
+                            <div>
+                                <div class="contact-info-header">
+                                    <p>CONTACT INFO</p>
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <p class="name">Enrico Smith +855-666-7744</p>
+                            </div>
+                        </div>
+                        <button class="btn">Change</button>
+                    </div>
+
+                    <div class="card shipping-card">
+                        <div class="contact-card">
+                            <div class="contact-info-text-con">
+                                <i class="fas fa-directions contact-icon"></i>
+                                <div>
+                                    <div class="contact-info-header">
+                                        <p>SHIPPING ADDRESS</p>
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <p class="name">St. Paul's Road, Norris, SD 57560, Dakota, USA
+                                    </p>
+                                </div>
+                            </div>
+                            <button class="btn">Change</button>
+                        </div>
+
+                        <form>
+                            <div class="name-form-container">
+                                <div>
+                                    <label>First Name</label>
+                                    <input type="text" class="text-field" placeholder="First Name" />
+                                </div>
+                                <div>
+                                    <label>Last Name</label>
+                                    <input type="text" class="text-field" placeholder="Last Name" />
+                                </div>
+                            </div>
+
+                            <div class="address-form-container">
+                                <div class="address-box">
+                                    <label>Address</label>
+                                    <input type="text" class="text-field" placeholder="Address" />
+                                </div>
+                                <div>
+                                    <label>Apt, Suite *</label>
+                                    <input type="text" class="text-field" placeholder="Apt" />
+                                </div>
+                            </div>
+
+                            <div class="city-form-container">
+                                <div>
+                                    <label>City</label>
+                                    <input type="text" class="text-field" placeholder="First Name" />
+                                </div>
+                                <div>
+                                    <label>Country</label>
+                                    <select class="text-field">
+                                        <option>Select Country</option>
+                                        <option>Country 1</option>
+                                        <option>Country 2</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="state-form-container">
+                                <div>
+                                    <label>State/Province</label>
+                                    <input type="text" class="text-field" placeholder="State" />
+                                </div>
+                                <div>
+                                    <label>Postal Code</label>
+                                    <input type="text" class="text-field" placeholder="Postal Code" />
+                                </div>
+                            </div>
+
+                            <p>Address Type</p>
+                            <div class="address-type-form-container">
+                                <div>
+                                    <input type="radio" class="radio-btn" name="address-type" />
+                                    <label>Home (All day Delivery)</label>
+                                </div>
+
+                                <div>
+                                    <input type="radio" class="radio-btn" name="address-type" />
+                                    <label>Office (Delivery 9 AM - 5 PM)</label>
+                                </div>
+                            </div>
+
+                            <div class="form-buttons-container">
+                                <button class="save-btn">Save and next to Payment</button>
+                                <button class="cancel-btn">Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="card payment-card">
+                        <div class="contact-info-text-con">
+                            <i class="fas fa-credit-card contact-icon"></i>
+                            <div>
+                                <div class="contact-info-header">
+                                    <p>PAYMENT METHOD</p>
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <p class="name">Google / Apple Wallet xxx-xxx-xx55</p>
+                            </div>
+                        </div>
+                        <button class="btn">Change</button>
+                    </div>
+                </section>
+
+                <section class="right-section">
+                    <div class="card">
+                        <h3>Order Summary</h3>
+
+                        <article class="each-product-item">
+                            <div class="product-img-container">
+                                <img src="https://monumental-ganache-c14cf0.netlify.app/static/media/hoodie.7701cf9446a6b588de67.png" alt="product" class="product-img" />
+                            </div>
+
+                            <div class="product-info-container">
+                                <div class="details-box">
+                                    <div>
+                                        <p class="product-name">Rey Nylon Backpack</p>
+                                        <i class="fas fa-fill product-desc-icon"></i>
+                                        <label class="product-desc">Black |</label>
+                                        <i class="fas fa-expand-alt product-desc-icon"></i>
+                                        <label class="product-desc">2XL</label>
+                                    </div>
+
+                                    <p class="price">$74</p>
+                                </div>
+
+                                <div class="actions-container">
+                                    <div>
+                                        <i class="fal fa-minus-circle"></i>
+                                        <span>1</span>
+                                        <i class="fal fa-plus-circle"></i>
+                                    </div>
+                                    <button class="remove-btn">Remove</button>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="each-product-item">
+                            <div class="product-img-container">
+                                <img src="https://monumental-ganache-c14cf0.netlify.app/static/media/beanie.5ed8bd8a65af67fd6c5c.png" alt="product" class="product-img" />
+                            </div>
+
+                            <div class="product-info-container">
+                                <div class="details-box">
+                                    <div>
+                                        <p class="product-name">Rey Nylon Backpack</p>
+                                        <i class="fas fa-fill product-desc-icon"></i>
+                                        <label class="product-desc">Black |</label>
+                                        <i class="fas fa-expand-alt product-desc-icon"></i>
+                                        <label class="product-desc">2XL</label>
+                                    </div>
+
+                                    <p class="price">$74</p>
+                                </div>
+
+                                <div class="actions-container">
+                                    <div>
+                                        <i class="fal fa-minus-circle"></i>
+                                        <span>1</span>
+                                        <i class="fal fa-plus-circle"></i>
+                                    </div>
+                                    <button class="remove-btn">Remove</button>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="each-product-item">
+                            <div class="product-img-container">
+                                <img src="https://monumental-ganache-c14cf0.netlify.app/static/media/purse.7342ded3cf1426f3ce5e.png" alt="product" class="product-img" />
+                            </div>
+
+                            <div class="product-info-container">
+                                <div class="details-box">
+                                    <div>
+                                        <p class="product-name">Rey Nylon Backpack</p>
+                                        <i class="fas fa-fill product-desc-icon"></i>
+                                        <label class="product-desc">Black |</label>
+                                        <i class="fas fa-expand-alt product-desc-icon"></i>
+                                        <label class="product-desc">2XL</label>
+                                    </div>
+
+                                    <p class="price">$74</p>
+                                </div>
+
+                                <div class="actions-container">
+                                    <div>
+                                        <i class="fal fa-minus-circle"></i>
+                                        <span>1</span>
+                                        <i class="fal fa-plus-circle"></i>
+                                    </div>
+                                    <button class="remove-btn">Remove</button>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+
+            <hr />
+ <!--foooteer-->
+
+ <div class="footer-container">
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="col" id="Ciseco">
+                    <img src="https://monumental-ganache-c14cf0.netlify.app/static/media/logo1.95d47bbac8db6c1e8f997bbf26ca05cf.svg" class="image-ciseco" />
+                    <div class="links ">
+                        <div class="icon-align">
+                            <a href="#"><i class="fab fa-facebook icon"></i> </a>
+                            <h3 class="icon-name">Facebook</h3>
+                        </div>
+
+                        <div class="icon-align">
+                            <a href="#"><i class="fab fa-youtube icon"></i> </a>
+                            <h3 class="icon-name">Youtube</h3>
+                        </div>
+                        <div class="icon-align">
+                            <a href="#"><i class="fab fa-telegram icon"></i> </a>
+                            <h3 class="icon-name">Telegram</h3>
+                        </div>
+                        <div class="icon-align">
+                            <a href="#"><i class="fab fa-twitter icon"></i> </a>
+                            <h3 class="icon-name">Twitter</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" id="GettingStarted">
+                    <h3>Getting Started</h3>
+                    <div class="links">
+                        <a href="#">Release Notes</a>
+                        <a href="#">Upgrade Guide</a>
+                        <a href="#">Browser Support</a>
+                        <a href="#">Dark Mode</a>
+                    </div>
+                </div>
+
+                <div class="col" id="Expore">
+                    <h3>Explore</h3>
+                    <div class="links">
+                        <a href="#">Prototyping</a>
+                        <a href="#">Design Systems</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">Security</a>
+                    </div>
+                </div>
+                <div class="col" id="Resources">
+                    <h3>Resources</h3>
+                    <div class="links">
+                        <a href="#">Best Practices</a>
+                        <a href="#">Support</a>
+                        <a href="#">Developers</a>
+                        <a href="#">Learn Design</a>
+                    </div>
+                </div>
+                <div class="col" id="Community">
+                    <h3>Community</h3>
+                    <div class="links">
+                        <a href="#">Discussion Forums</a>
+                        <a href="#">Code of Conduct</a>
+                        <a href="#">Contributing</a>
+                        <a href="#">ApI Reference</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</div>
+        </div>
+    </div>  
+</body>
+<script src="index.js"></script>
+</html>
